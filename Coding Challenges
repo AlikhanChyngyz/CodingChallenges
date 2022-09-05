@@ -1,0 +1,17 @@
+#Valid Parentheses
+def isValid(self, s):
+    if ["{", "}", ")", "(", "[", "]"] in s
+        if s = "()":
+            return True
+        elif s = "[]":
+            return True
+        elif s = "{}":
+            return True
+    return False
+    
+#Reverse String
+def reverseString(self, s):
+    for i in range(len(s)/2):
+        rev = s[i]
+        s[i] = s[len(s)-1-i]
+        s[len(s)-1-i] = rev
